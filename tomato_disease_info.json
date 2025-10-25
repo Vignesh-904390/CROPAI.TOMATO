@@ -1,0 +1,271 @@
+{
+    "Healthy": {
+        "fertilizer": "Maintain balanced nutrients",
+        "water": "Normal field level",
+        "medicine": [
+            "No chemical treatment needed"
+        ],
+        "organic_medicine": [
+            "Neem cake",
+            "Vermicompost"
+        ],
+        "prevention": "Continue regular crop monitoring and hygiene."
+    },
+    "Anthracnose": {
+        "fertilizer": "Balanced NPK fertilizer",
+        "water": "Avoid overhead irrigation",
+        "medicine": [
+            "Copper-based fungicide"
+        ],
+        "organic_medicine": [
+            "Neem oil spray"
+        ],
+        "prevention": "Remove infected plant debris; rotate crops."
+    },
+    "Aphid": {
+        "fertilizer": "Balanced nutrients to strengthen plants",
+        "water": "Regular watering without over-saturating",
+        "medicine": [
+            "Insecticidal soap",
+            "Imidacloprid"
+        ],
+        "organic_medicine": [
+            "Neem oil spray",
+            "Garlic-chili extract"
+        ],
+        "prevention": "Encourage natural predators like ladybugs."
+    },
+    "Bacterial Canker": {
+        "fertilizer": "Avoid excessive nitrogen",
+        "water": "Water at base only",
+        "medicine": [
+            "Copper-based bactericide"
+        ],
+        "organic_medicine": [
+            "Bacillus subtilis biofungicide"
+        ],
+        "prevention": "Use disease-free seeds; practice crop rotation."
+    },
+    "Bacterial Speck": {
+        "fertilizer": "Balanced NPK fertilizer",
+        "water": "Avoid wetting foliage",
+        "medicine": [
+            "Copper fungicide"
+        ],
+        "organic_medicine": [
+            "Neem oil"
+        ],
+        "prevention": "Sanitize tools; remove infected leaves."
+    },
+    "Blossom End Rot": {
+        "fertilizer": "Calcium-rich fertilizer",
+        "water": "Maintain consistent soil moisture",
+        "medicine": [
+            "Calcium foliar spray"
+        ],
+        "organic_medicine": [
+            "Eggshell powder solution"
+        ],
+        "prevention": "Mulch soil to retain moisture; avoid excessive nitrogen."
+    },
+    "Cucumber Mosaic Virus (CMV)": {
+        "fertilizer": "Balanced nutrients to improve plant vigor",
+        "water": "Normal field irrigation",
+        "medicine": [
+            "No chemical cure available"
+        ],
+        "organic_medicine": [
+            "Remove infected plants to prevent spread"
+        ],
+        "prevention": "Control aphid vectors; use resistant varieties."
+    },
+    "Early Blight": {
+        "fertilizer": "Balanced NPK fertilizer",
+        "water": "Avoid wetting leaves",
+        "medicine": [
+            "Mancozeb or Chlorothalonil"
+        ],
+        "organic_medicine": [
+            "Neem oil spray"
+        ],
+        "prevention": "Crop rotation; remove infected leaves."
+    },
+    "Fruit Borer": {
+        "fertilizer": "Balanced nutrients",
+        "water": "Regular watering",
+        "medicine": [
+            "Bacillus thuringiensis (Bt)",
+            "Emamectin benzoate"
+        ],
+        "organic_medicine": [
+            "Neem oil",
+            "Hand-picking larvae"
+        ],
+        "prevention": "Monitor fruits; use pheromone traps."
+    },
+    "Fusarium Wilt": {
+        "fertilizer": "Avoid excessive nitrogen",
+        "water": "Moderate watering",
+        "medicine": [
+            "Fungicide: Carbendazim"
+        ],
+        "organic_medicine": [
+            "Trichoderma viride biofungicide"
+        ],
+        "prevention": "Use resistant varieties; crop rotation."
+    },
+    "Late Blight": {
+        "fertilizer": "Balanced nutrients",
+        "water": "Avoid wetting leaves",
+        "medicine": [
+            "Mancozeb or Copper fungicide"
+        ],
+        "organic_medicine": [
+            "Neem oil"
+        ],
+        "prevention": "Remove infected debris; rotate crops."
+    },
+    "Powdery Mildew": {
+        "fertilizer": "Balanced nutrients",
+        "water": "Avoid wet foliage",
+        "medicine": [
+            "Sulfur-based fungicides"
+        ],
+        "organic_medicine": [
+            "Neem oil",
+            "Baking soda spray"
+        ],
+        "prevention": "Ensure good air circulation; prune dense foliage."
+    },
+    "Red Spider Mites": {
+        "fertilizer": "Balanced nutrients to strengthen plants",
+        "water": "Regular watering",
+        "medicine": [
+            "Miticides (Abamectin)"
+        ],
+        "organic_medicine": [
+            "Neem oil spray",
+            "Predatory mites release"
+        ],
+        "prevention": "Avoid dry dusty conditions; monitor leaves."
+    },
+    "Root Knot Nematodes": {
+        "fertilizer": "Avoid excessive nitrogen",
+        "water": "Moderate irrigation",
+        "medicine": [
+            "Nematicides"
+        ],
+        "organic_medicine": [
+            "Neem cake",
+            "Marigold intercropping"
+        ],
+        "prevention": "Crop rotation; use resistant rootstocks."
+    },
+    "Septoria Leaf Spot": {
+        "fertilizer": "Balanced NPK fertilizer",
+        "water": "Water at base",
+        "medicine": [
+            "Copper fungicide"
+        ],
+        "organic_medicine": [
+            "Neem oil spray"
+        ],
+        "prevention": "Remove infected leaves; avoid overhead watering."
+    },
+    "Serpentine Leaf Miner": {
+        "fertilizer": "Balanced nutrients",
+        "water": "Normal irrigation",
+        "medicine": [
+            "Spinosad-based insecticide"
+        ],
+        "organic_medicine": [
+            "Neem oil",
+            "Yellow sticky traps"
+        ],
+        "prevention": "Remove infested leaves; monitor regularly."
+    },
+   
+    
+    "Thrips": {
+        "fertilizer": "Balanced nutrients",
+        "water": "Normal irrigation",
+        "medicine": [
+            "Spinosad or Imidacloprid"
+        ],
+        "organic_medicine": [
+            "Neem oil spray",
+            "Blue sticky traps"
+        ],
+        "prevention": "Monitor leaves; encourage natural predators."
+    },
+    "Tomato Mosaic Virus": {
+        "fertilizer": "Balanced nutrients to improve plant vigor",
+        "water": "Normal field irrigation",
+        "medicine": [
+            "No chemical cure"
+        ],
+        "organic_medicine": [
+            "Remove infected plants immediately"
+        ],
+        "prevention": "Use virus-free seeds; sanitize tools."
+    },
+    "Tomato Spotted Wilt Virus": {
+        "fertilizer": "Balanced nutrients",
+        "water": "Normal irrigation",
+        "medicine": [
+            "No chemical cure"
+        ],
+        "organic_medicine": [
+            "Remove infected plants"
+        ],
+        "prevention": "Control thrips; use resistant varieties."
+    },
+    "Tomato Yellow Leaf Curl Virus": {
+        "fertilizer": "Balanced nutrients",
+        "water": "Normal irrigation",
+        "medicine": [
+            "No chemical cure"
+        ],
+        "organic_medicine": [
+            "Remove infected plants",
+            "Control whiteflies"
+        ],
+        "prevention": "Use virus-free seeds; yellow sticky traps for vectors."
+    },
+    "Verticillium Wilt": {
+        "fertilizer": "Avoid excessive nitrogen",
+        "water": "Moderate watering",
+        "medicine": [
+            "Fungicide: Carbendazim"
+        ],
+        "organic_medicine": [
+            "Trichoderma biofungicide"
+        ],
+        "prevention": "Use resistant varieties; crop rotation."
+    },
+    "white fly": {
+        "fertilizer": "Balanced nutrients",
+        "water": "Normal irrigation",
+        "medicine": [
+            "Imidacloprid or Thiamethoxam"
+        ],
+        "organic_medicine": [
+            "Neem oil",
+            "Yellow sticky traps"
+        ],
+        "prevention": "Monitor leaves; encourage natural predators."
+    },
+    
+    "Whitefly Bemisia tabaci": {
+        "fertilizer": "Balanced nutrients",
+        "water": "Normal irrigation",
+        "medicine": [
+            "Imidacloprid or Thiamethoxam"
+        ],
+        "organic_medicine": [
+            "Neem oil",
+            "Yellow sticky traps"
+        ],
+        "prevention": "Monitor leaves; encourage natural predators."
+    }
+}
