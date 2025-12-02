@@ -1,271 +1,531 @@
 {
     "Healthy": {
-        "fertilizer": "Maintain balanced nutrients",
-        "water": "Normal field level",
+        "type": "healthy",
+        "fertilizer": "Maintain balanced NPK (20:20:20) fertilizer application",
+        "water": "70%",
         "medicine": [
-            "No chemical treatment needed"
+            "No chemical treatment needed - 0g/liter",
+            "Regular monitoring required - Weekly inspection",
+            "Preventive fungicide spray if needed - Mancozeb 2g/liter water"
         ],
         "organic_medicine": [
-            "Neem cake",
-            "Vermicompost"
+            "Neem cake application (250 kg/acre) - Soil incorporation",
+            "Vermicompost (2-3 tons/acre) - Basal application", 
+            "Panchagavya spray (3%) every 15 days - 30ml/liter water"
         ],
-        "prevention": "Continue regular crop monitoring and hygiene."
+        "prevention": "Continue regular crop monitoring, maintain field hygiene, and ensure proper spacing between plants",
+        "பெயர்": "ஆரோக்கியமான தாவரம்",
+        "வகை": "ஆரோக்கியமான",
+        "உரம்": "சமநிலை NPK (20:20:20) உரம் பயன்பாடு பராமரிக்கவும்",
+        "நீர்": "70%",
+        "மருந்து": ["ரசாயன சிகிச்சை தேவையில்லை - 0g/லிட்டர்", "வழக்கமான கண்காணிப்பு தேவை - வாராந்திர பரிசோதனை", "தேவைப்பட்டால் தடுப்பு பூஞ்சைக்கொல்லி தெளிப்பு - மான்கோசெப் 2g/லிட்டர் நீர்"],
+        "கரிம மருந்து": ["வேப்ப பிண்ணாக்கு பயன்பாடு (250 kg/ஏக்கர்) - மண் இணைப்பு", "வேர்மிகம்போஸ்ட் (2-3 டன்/ஏக்கர்) - அடிப்படை பயன்பாடு", "பஞ்சகவ்ய தெளிப்பு (3%) 15 நாட்களுக்கு ஒருமுறை - 30ml/லிட்டர் நீர்"],
+        "தடுப்பு முறைகள்": "வழக்கமான பயிர் கண்காணிப்பை தொடரவும், வயல் சுகாதாரத்தை பராமரிக்கவும், தாவரங்களுக்கு இடையே சரியான இடைவெளி உறுதி செய்யவும்"
     },
     "Anthracnose": {
-        "fertilizer": "Balanced NPK fertilizer",
-        "water": "Avoid overhead irrigation",
+        "type": "fungal",
+        "fertilizer": "Balanced NPK (15:15:15) with reduced nitrogen application",
+        "water": "60%",
         "medicine": [
-            "Copper-based fungicide"
+            "Carbendazim 50 WP (1g/liter water) - Spray at 15 days interval",
+            "Mancozeb 75 WP (2g/liter water) - Apply 3 times weekly",
+            "Hexaconazole 5% SC (1ml/liter water) - Foliar spray weekly"
         ],
         "organic_medicine": [
-            "Neem oil spray"
+            "Neem oil spray (5ml/liter) weekly - Thorough coverage needed",
+            "Garlic extract spray (10%) - 100g garlic/liter water",
+            "Trichoderma viride (5g/liter) soil drench - Apply to root zone"
         ],
-        "prevention": "Remove infected plant debris; rotate crops."
+        "prevention": "Remove and destroy infected plant debris; practice 3-year crop rotation; use disease-free seeds",
+        "பெயர்": "அந்திரக்னோசு",
+        "வகை": "பூஞ்சை",
+        "உரம்": "குறைக்கப்பட்ட நைட்ரஜன் பயன்பாட்டுடன் சமநிலை NPK (15:15:15)",
+        "நீர்": "60%",
+        "மருந்து": ["கார்பெண்டாசிம் 50 WP (1g/லிட்டர் நீர்) - 15 நாட்கள் இடைவெளியில் தெளிக்கவும்", "மான்கோசெப் 75 WP (2g/லிட்டர் நீர்) - வாரத்தில் 3 முறை பயன்படுத்தவும்", "ஹெக்சாகோனசோல் 5% SC (1ml/லிட்டர் நீர்) - வாராந்திர இலை தெளிப்பு"],
+        "கரிம மருந்து": ["வேப்ப எண்ணெய் தெளிப்பு (5ml/லிட்டர்) வாராந்திர - முழுமையான ப覆盖 தேவை", "பூண்டு சாறு தெளிப்பு (10%) - 100g பூண்டு/லிட்டர் நீர்", "டிரைகோடெர்மா வைரிடி (5g/லிட்டர்) மண் ட்ரென்ச் - வேர் மண்டலத்தில் பயன்படுத்தவும்"],
+        "தடுப்பு முறைகள்": "பாதிக்கப்பட்ட தாவர எச்சங்களை அகற்றி அழிக்கவும்; 3-வருட பயிர் சுழற்சி பயிற்சி செய்யவும்; நோய் இல்லாத விதைகளை பயன்படுத்தவும்"
     },
     "Aphid": {
-        "fertilizer": "Balanced nutrients to strengthen plants",
-        "water": "Regular watering without over-saturating",
+        "type": "pest",
+        "fertilizer": "Balanced nutrients with silicon supplementation to strengthen plant cell walls",
+        "water": "75%",
         "medicine": [
-            "Insecticidal soap",
-            "Imidacloprid"
+            "Imidacloprid 17.8 SL (0.3ml/liter) - Systemic application",
+            "Acetamiprid 20 SP (0.2g/liter) - Contact spray on pests", 
+            "Thiamethoxam 25 WG (0.2g/liter) - Soil drench or foliar spray"
         ],
         "organic_medicine": [
-            "Neem oil spray",
-            "Garlic-chili extract"
+            "Neem oil spray (5ml/liter) weekly - Cover both leaf surfaces",
+            "Garlic-chili extract (5% solution) - 50g each/liter water",
+            "Soap water spray (10ml liquid soap/liter) - Direct spray on aphids"
         ],
-        "prevention": "Encourage natural predators like ladybugs."
+        "prevention": "Encourage natural predators like ladybugs and lacewings; use yellow sticky traps; remove weed hosts",
+        "பெயர்": "அஃபிட்",
+        "வகை": "பூச்சி",
+        "உரம்": "தாவர செல் சுவர்களை வலுப்படுத்த சிலிகான் கூடுதல் உடன் சமநிலை ஊட்டச்சத்துக்கள்",
+        "நீர்": "75%",
+        "மருந்து": ["இமிடாக்ளோப்பிரிட் 17.8 SL (0.3ml/லிட்டர்) - கணினி பயன்பாடு", "அசிட்டாமிப்ரிட் 20 SP (0.2g/லிட்டர்) - பூச்சிகளில் தொடர்பு தெளிப்பு", "தையமெத்தோக்சம் 25 WG (0.2g/லிட்டர்) - மண் ட்ரென்ச் அல்லது இலை தெளிப்பு"],
+        "கரிம மருந்து": ["வேப்ப எண்ணெய் தெளிப்பு (5ml/லிட்டர்) வாராந்திர - இரு இலை மேற்பரப்புகளையும் ம覆盖வும்", "பூண்டு-மிளகாய் சாறு (5% கரைசல்) - 50g ஒவ்வொன்றும்/லிட்டர் நீர்", "சோப்பு நீர் தெளிப்பு (10ml திரவ சோப்பு/லிட்டர்) - அஃபிட்களில் நேரடி தெளிப்பு"],
+        "தடுப்பு முறைகள்": "லேடிபக்ஸ் மற்றும் லேஸ்விங்ஸ் போன்ற இயற்கை வேட்டையாடுபவர்களை ஊக்குவிக்கவும்; மஞ்சள் ஒட்டும் பொறிகளை பயன்படுத்தவும்; களை ஹோஸ்ட்களை அகற்றவும்"
     },
     "Bacterial Canker": {
-        "fertilizer": "Avoid excessive nitrogen",
-        "water": "Water at base only",
+        "type": "bacterial", 
+        "fertilizer": "Avoid excessive nitrogen, use calcium-rich fertilizers",
+        "water": "65%",
         "medicine": [
-            "Copper-based bactericide"
+            "Copper oxychloride 50 WP (3g/liter) - Spray every 10 days",
+            "Streptomycin sulfate (0.1%) - 1g/liter water application",
+            "Kasugamycin 3% SL (2ml/liter) - Apply during early infection"
         ],
         "organic_medicine": [
-            "Bacillus subtilis biofungicide"
+            "Bacillus subtilis biofungicide (5g/liter) - Weekly application",
+            "Copper hydroxide organic formulation - 4g/liter water",
+            "Plantomycin biological preparation - As per package instructions"
         ],
-        "prevention": "Use disease-free seeds; practice crop rotation."
+        "prevention": "Use certified disease-free seeds; practice 4-year crop rotation; sterilize pruning tools",
+        "பெயர்": "பாக்டீரியா கேங்கர்",
+        "வகை": "பாக்டீரியா",
+        "உரம்": "அதிக நைட்ரஜன் தவிர்க்கவும், கால்சியம் நிறைந்த உரங்களை பயன்படுத்தவும்",
+        "நீர்": "65%",
+        "மருந்து": ["காப்பர் ஆக்சிக்ளோரைடு 50 WP (3g/லிட்டர்) - 10 நாட்களுக்கு ஒருமுறை தெளிக்கவும்", "ஸ்ட்ரெப்டோமைசின் சல்பேட் (0.1%) - 1g/லிட்டர் நீர் பயன்பாடு", "காசுகாமைசின் 3% SL (2ml/லிட்டர்) - ஆரம்ப தொற்று போது பயன்படுத்தவும்"],
+        "கரிம மருந்து": ["பாசிலஸ் சப்டிலிஸ் உயிரி பூஞ்சைக்கொல்லி (5g/லிட்டர்) - வாராந்திர பயன்பாடு", "காப்பர் ஹைட்ராக்சைடு கரிம ஃபார்முலேஷன் - 4g/லிட்டர் நீர்", "ப்ளாண்டோமைசின் உயிரியல் தயாரிப்பு - பேக்கேஜ் வழிமுறைகள் படி"],
+        "தடுப்பு முறைகள்": "சான்றளிக்கப்பட்ட நோய் இல்லாத விதைகளை பயன்படுத்தவும்; 4-வருட பயிர் சுழற்சி பயிற்சி செய்யவும்; கத்தரித்தல் கருவிகளை கிருமி நீக்கம் செய்யவும்"
     },
     "Bacterial Speck": {
-        "fertilizer": "Balanced NPK fertilizer",
-        "water": "Avoid wetting foliage",
+        "type": "bacterial",
+        "fertilizer": "Balanced NPK fertilizer with micronutrients", 
+        "water": "70%",
         "medicine": [
-            "Copper fungicide"
+            "Copper hydroxide 77 WP (2g/liter) - Preventive spray",
+            "Oxytetracycline 500 ppm - 0.5g/liter therapeutic spray",
+            "Copper oxychloride (3g/liter) - Apply at first symptoms"
         ],
         "organic_medicine": [
-            "Neem oil"
+            "Neem oil (5ml/liter) with copper - Combined formulation",
+            "Bacillus amyloliquefaciens (5g/liter) - Bio-control agent",
+            "Garlic extract spray (10%) - 100g crushed garlic/liter"
         ],
-        "prevention": "Sanitize tools; remove infected leaves."
+        "prevention": "Sanitize tools with bleach solution; remove infected leaves immediately; avoid working in wet fields",
+        "பெயர்": "பாக்டீரியா ஸ்பெக்",
+        "வகை": "பாக்டீரியா",
+        "உரம்": "நுண்ணூட்டச்சத்துக்களுடன் சமநிலை NPK உரம்",
+        "நீர்": "70%",
+        "மருந்து": ["காப்பர் ஹைட்ராக்சைடு 77 WP (2g/லிட்டர்) - தடுப்பு தெளிப்பு", "ஆக்சிடெட்ராசைக்ளின் 500 ppm - 0.5g/லிட்டர் சிகிச்சை தெளிப்பு", "காப்பர் ஆக்சிக்ளோரைடு (3g/லிட்டர்) - முதல் அறிகுறிகளில் பயன்படுத்தவும்"],
+        "கரிம மருந்து": ["காப்பருடன் வேப்ப எண்ணெய் (5ml/லிட்டர்) - இணைந்த ஃபார்முலேஷன்", "பாசிலஸ் அமிலோலிகுஃபாசியன்ஸ் (5g/லிட்டர்) - உயிரி கட்டுப்பாட்டு முகவர்", "பூண்டு சாறு தெளிப்பு (10%) - 100g நசுக்கிய பூண்டு/லிட்டர்"],
+        "தடுப்பு முறைகள்": "ப்ளீச் கரைசலுடன் கருவிகளை சுத்தம் செய்யவும்; பாதிக்கப்பட்ட இலைகளை உடனடியாக அகற்றவும்; ஈரமான வயல்களில் வேலை செய்வதை தவிர்க்கவும்"
     },
     "Blossom End Rot": {
-        "fertilizer": "Calcium-rich fertilizer",
-        "water": "Maintain consistent soil moisture",
+        "type": "nutritional",
+        "fertilizer": "Calcium-rich fertilizer with balanced NPK",
+        "water": "80%", 
         "medicine": [
-            "Calcium foliar spray"
+            "Calcium nitrate foliar spray (2g/liter) - Weekly application",
+            "Calcium chloride (1g/liter) spray - Direct to affected areas",
+            "Boron supplemented calcium spray - 2g calcium + 0.5g boron/liter"
         ],
         "organic_medicine": [
-            "Eggshell powder solution"
+            "Eggshell powder solution - 50g shells soaked in vinegar/liter",
+            "Bone meal application - 100g/plant soil incorporation", 
+            "Dolomite lime soil amendment - 500g/sq meter application"
         ],
-        "prevention": "Mulch soil to retain moisture; avoid excessive nitrogen."
+        "prevention": "Mulch soil to retain moisture; avoid excessive nitrogen; maintain soil pH 6.0-6.5",
+        "பெயர்": "ப்ளாசம் எண்ட் ராட்",
+        "வகை": "ஊட்டச்சத்து",
+        "உரம்": "சமநிலை NPK உடன் கால்சியம் நிறைந்த உரம்",
+        "நீர்": "80%",
+        "மருந்து": ["கால்சியம் நைட்ரேட் இலை தெளிப்பு (2g/லிட்டர்) - வாராந்திர பயன்பாடு", "கால்சியம் குளோரைடு (1g/லிட்டர்) தெளிப்பு - பாதிக்கப்பட்ட பகுதிகளுக்கு நேரடியாக", "போரான் கூடுதல் கால்சியம் தெளிப்பு - 2g கால்சியம் + 0.5g போரான்/லிட்டர்"],
+        "கரிம மருந்து": ["முட்டை ஓடு தூள் கரைசல் - 50g ஓடுகள் வினிகரில் ஊறவைத்து/லிட்டர்", "எலும்பு தூள் பயன்பாடு - 100g/தாவர மண் இணைப்பு", "டோலோமைட் சுண்ணாம்பு மண் திருத்தம் - 500g/சதுர மீட்டர் பயன்பாடு"],
+        "தடுப்பு முறைகள்": "ஈரப்பதத்தை தக்கவைக்க மண்ணை மல்ச் செய்யவும்; அதிக நைட்ரஜன் தவிர்க்கவும்; மண் pH 6.0-6.5 பராமரிக்கவும்"
     },
     "Cucumber Mosaic Virus (CMV)": {
-        "fertilizer": "Balanced nutrients to improve plant vigor",
-        "water": "Normal field irrigation",
+        "type": "viral",
+        "fertilizer": "Balanced nutrients to improve plant vigor and resistance", 
+        "water": "70%",
         "medicine": [
-            "No chemical cure available"
+            "Acetamiprid for aphid control (0.2g/liter) - Vector management",
+            "Imidacloprid for vector management (0.3ml/liter) - Systemic",
+            "Systemic insecticides for vector control - As per pest population"
         ],
         "organic_medicine": [
-            "Remove infected plants to prevent spread"
+            "Remove infected plants immediately - Complete uprooting",
+            "Neem oil for aphid control (5ml/liter) - Weekly spray", 
+            "Garlic barrier spray for insects (10%) - Pest repellent"
         ],
-        "prevention": "Control aphid vectors; use resistant varieties."
+        "prevention": "Control aphid vectors using insecticides; use resistant varieties; rogue infected plants immediately",
+        "பெயர்": "குக்கும்பர் மொசைக் வைரஸ் (CMV)",
+        "வகை": "வைரஸ்",
+        "உரம்": "தாவர வலிமை மற்றும் எதிர்ப்பு சக்தி மேம்படுத்த சமநிலை ஊட்டச்சத்துக்கள்",
+        "நீர்": "70%",
+        "மருந்து": ["அஃபிட் கட்டுப்பாட்டிற்கு அசிட்டாமிப்ரிட் (0.2g/லிட்டர்) - வெக்டர் மேலாண்மை", "வெக்டர் மேலாண்மைக்கு இமிடாக்ளோப்பிரிட் (0.3ml/லிட்டர்) - கணினி", "வெக்டர் கட்டுப்பாட்டிற்கான கணினி பூச்சிக்கொல்லிகள் - பூச்சி மக்கள் தொகை படி"],
+        "கரிம மருந்து": ["பாதிக்கப்பட்ட தாவரங்களை உடனடியாக அகற்றவும் - முழுமையான வேர் பிடுங்குதல்", "அஃபிட் கட்டுப்பாட்டிற்கு வேப்ப எண்ணெய் (5ml/லிட்டர்) - வாராந்திர தெளிப்பு", "பூச்சிகளுக்கு பூண்டு தடுப்பு தெளிப்பு (10%) - பூச்சி விரட்டி"],
+        "தடுப்பு முறைகள்": "பூச்சிக்கொல்லிகள் பயன்படுத்தி அஃபிட் வெக்டர்களை கட்டுப்படுத்தவும்; எதிர்ப்பு வகைகளை பயன்படுத்தவும்; பாதிக்கப்பட்ட தாவரங்களை உடனடியாக அகற்றவும்"
     },
     "Early Blight": {
-        "fertilizer": "Balanced NPK fertilizer",
-        "water": "Avoid wetting leaves",
+        "type": "fungal",
+        "fertilizer": "Balanced NPK fertilizer with potassium emphasis", 
+        "water": "65%",
         "medicine": [
-            "Mancozeb or Chlorothalonil"
+            "Chlorothalonil 75 WP (2g/liter) - Protective fungicide",
+            "Mancozeb 75 WP (2g/liter) - 3 applications at 10-day intervals",
+            "Azoxystrobin 23 SC (1ml/liter) - Systemic fungicide spray"
         ],
         "organic_medicine": [
-            "Neem oil spray"
+            "Neem oil spray (5ml/liter) - Weekly preventive application",
+            "Baking soda spray (5g/liter) - 5g soda + 5ml oil/liter",
+            "Copper soap fungicide - Ready-to-use organic formulation"
         ],
-        "prevention": "Crop rotation; remove infected leaves."
+        "prevention": "Crop rotation every 2-3 years; remove infected leaves; ensure good air circulation",
+        "பெயர்": "ஆர்லி ப்ளைட்",
+        "வகை": "பூஞ்சை",
+        "உரம்": "பொட்டாசியம் வலியுறுத்தல் உடன் சமநிலை NPK உரம்",
+        "நீர்": "65%",
+        "மருந்து": ["குளோரோதலோனில் 75 WP (2g/லிட்டர்) - பாதுகாப்பு பூஞ்சைக்கொல்லி", "மான்கோசெப் 75 WP (2g/லிட்டர்) - 10-நாள் இடைவெளியில் 3 பயன்பாடுகள்", "அசோக்சிஸ்ட்ரோபின் 23 SC (1ml/லிட்டர்) - கணினி பூஞ்சைக்கொல்லி தெளிப்பு"],
+        "கரிம மருந்து": ["வேப்ப எண்ணெய் தெளிப்பு (5ml/லிட்டர்) - வாராந்திர தடுப்பு பயன்பாடு", "பேக்கிங் சோடா தெளிப்பு (5g/லிட்டர்) - 5g சோடா + 5ml எண்ணெய்/லிட்டர்", "காப்பர் சோப் பூஞ்சைக்கொல்லி - பயன்படுத்த தயாரான கரிம ஃபார்முலேஷன்"],
+        "தடுப்பு முறைகள்": "2-3 வருடங்களுக்கு ஒருமுறை பயிர் சுழற்சி; பாதிக்கப்பட்ட இலைகளை அகற்றவும்; நல்ல காற்று சுழற்சி உறுதி செய்யவும்"
     },
     "Fruit Borer": {
-        "fertilizer": "Balanced nutrients",
-        "water": "Regular watering",
+        "type": "pest",
+        "fertilizer": "Balanced nutrients with proper timing",
+        "water": "75%",
         "medicine": [
-            "Bacillus thuringiensis (Bt)",
-            "Emamectin benzoate"
+            "Emamectin benzoate 5 SG (0.2g/liter) - Target larval stage",
+            "Spinosad 45 SC (0.3ml/liter) - Biological derivative spray", 
+            "Chlorantraniliprole 18.5 SC (0.3ml/liter) - Systemic action"
         ],
         "organic_medicine": [
-            "Neem oil",
-            "Hand-picking larvae"
+            "Neem oil (5ml/liter) - Repellent and growth disruptor",
+            "Hand-picking larvae manually - Daily monitoring required",
+            "Bt (Bacillus thuringiensis) spray - 1g/liter water application"
         ],
-        "prevention": "Monitor fruits; use pheromone traps."
+        "prevention": "Monitor fruits regularly; use pheromone traps @ 10/acre; destroy infected fruits",
+        "பெயர்": "பழப் போரர்",
+        "வகை": "பூச்சி",
+        "உரம்": "சரியான நேரத்துடன் சமநிலை ஊட்டச்சத்துக்கள்",
+        "நீர்": "75%",
+        "மருந்து": ["எமாமெக்டின் பென்சோயேட் 5 SG (0.2g/லிட்டர்) - லார்வா நிலை இலக்கு", "ஸ்பினோசாட் 45 SC (0.3ml/லிட்டர்) - உயிரியல் வழித்தோன்றல் தெளிப்பு", "குளோரான்ட்ரனிலிப்ரோல் 18.5 SC (0.3ml/லிட்டர்) - கணினி செயல்"],
+        "கரிம மருந்து": ["வேப்ப எண்ணெய் (5ml/லிட்டர்) - விரட்டி மற்றும் வளர்ச்சி தடுப்பான்", "கைமூலம் லார்வாக்களை எடுத்தல் - தினசரி கண்காணிப்பு தேவை", "Bt (பாசிலஸ் துரிஞ்சியன்சிஸ்) தெளிப்பு - 1g/லிட்டர் நீர் பயன்பாடு"],
+        "தடுப்பு முறைகள்": "பழங்களை தவறாமல் கண்காணிக்கவும்; ஃபெரோமோன் பொறிகள் @ 10/ஏக்கர் பயன்படுத்தவும்; பாதிக்கப்பட்ட பழங்களை அழிக்கவும்"
     },
     "Fusarium Wilt": {
-        "fertilizer": "Avoid excessive nitrogen",
-        "water": "Moderate watering",
+        "type": "fungal",
+        "fertilizer": "Avoid excessive nitrogen, use calcium nitrate",
+        "water": "60%",
         "medicine": [
-            "Fungicide: Carbendazim"
+            "Carbendazim 50 WP (1g/liter) - Soil drench application", 
+            "Thiophanate-methyl 70 WP (1g/liter) - Root zone treatment",
+            "Benomyl soil drench - 2g/liter water for infected plants"
         ],
         "organic_medicine": [
-            "Trichoderma viride biofungicide"
+            "Trichoderma viride (5g/liter) soil application - Bio-control",
+            "Neem cake amendment - 250kg/acre soil incorporation",
+            "Biofumigation with mustard cake - 500kg/acre tilling"
         ],
-        "prevention": "Use resistant varieties; crop rotation."
+        "prevention": "Use resistant varieties; practice 4-5 year crop rotation; solarize soil",
+        "பெயர்": "ஃபியூசாரியம் வில்ட்",
+        "வகை": "பூஞ்சை",
+        "உரம்": "அதிக நைட்ரஜன் தவிர்க்கவும், கால்சியம் நைட்ரேட் பயன்படுத்தவும்",
+        "நீர்": "60%",
+        "மருந்து": ["கார்பெண்டாசிம் 50 WP (1g/லிட்டர்) - மண் ட்ரென்ச் பயன்பாடு", "தையோஃபனேட்-மெத்தில் 70 WP (1g/லிட்டர்) - வேர் மண்டல சிகிச்சை", "பெனோமில் மண் ட்ரென்ச் - பாதிக்கப்பட்ட தாவரங்களுக்கு 2g/லிட்டர் நீர்"],
+        "கரிம மருந்து": ["டிரைகோடெர்மா வைரிடி (5g/லிட்டர்) மண் பயன்பாடு - உயிரி கட்டுப்பாடு", "வேப்ப பிண்ணாக்கு திருத்தம் - 250kg/ஏக்கர் மண் இணைப்பு", "கடுகு பிண்ணாக்குடன் உயிரி புகைபூட்டல் - 500kg/ஏக்கர் உழுதல்"],
+        "தடுப்பு முறைகள்": "எதிர்ப்பு வகைகளை பயன்படுத்தவும்; 4-5 வருட பயிர் சுழற்சி பயிற்சி செய்யவும்; மண்ணை சூரிய ஒளிப்படுத்தவும்"
     },
     "Late Blight": {
-        "fertilizer": "Balanced nutrients",
-        "water": "Avoid wetting leaves",
+        "type": "fungal",
+        "fertilizer": "Balanced nutrients with reduced nitrogen",
+        "water": "60%",
         "medicine": [
-            "Mancozeb or Copper fungicide"
+            "Metalaxyl 8% + Mancozeb 64% WP (2.5g/liter) - Curative spray",
+            "Dimethomorph 50 WP (0.3g/liter) - Systemic fungicide", 
+            "Famoxadone 16.6% + Cymoxanil 22.1% SC - 2ml/liter application"
         ],
         "organic_medicine": [
-            "Neem oil"
+            "Copper sulfate spray (0.5%) - 5g/liter protective spray",
+            "Neem oil combination spray - 5ml oil + 2g copper/liter",
+            "Baking soda solution (5g/liter) - Alkaline environment creation"
         ],
-        "prevention": "Remove infected debris; rotate crops."
+        "prevention": "Remove infected debris completely; rotate with non-host crops; avoid overhead irrigation",
+        "பெயர்": "லேட் ப்ளைட்",
+        "வகை": "பூஞ்சை",
+        "உரம்": "குறைக்கப்பட்ட நைட்ரஜன் உடன் சமநிலை ஊட்டச்சத்துக்கள்",
+        "நீர்": "60%",
+        "மருந்து": ["மெட்டலாக்சில் 8% + மான்கோசெப் 64% WP (2.5g/லிட்டர்) - குணப்படுத்தும் தெளிப்பு", "டைமெத்தோமார்ஃப் 50 WP (0.3g/லிட்டர்) - கணினி பூஞ்சைக்கொல்லி", "ஃபாமோக்சடோன் 16.6% + சைமோக்சானில் 22.1% SC - 2ml/லிட்டர் பயன்பாடு"],
+        "கரிம மருந்து": ["காப்பர் சல்பேட் தெளிப்பு (0.5%) - 5g/லிட்டர் பாதுகாப்பு தெளிப்பு", "வேப்ப எண்ணெய் கலவை தெளிப்பு - 5ml எண்ணெய் + 2g காப்பர்/லிட்டர்", "பேக்கிங் சோடா கரைசல் (5g/லிட்டர்) - கார சூழல் உருவாக்கம்"],
+        "தடுப்பு முறைகள்": "பாதிக்கப்பட்ட குப்பைகளை முழுமையாக அகற்றவும்; ஹோஸ்ட் அல்லாத பயிர்களுடன் சுழற்றவும்; மேல்புற நீர்ப்பாசனத்தை தவிர்க்கவும்"
     },
     "Powdery Mildew": {
-        "fertilizer": "Balanced nutrients",
-        "water": "Avoid wet foliage",
+        "type": "fungal",
+        "fertilizer": "Balanced nutrients with silicon supplementation",
+        "water": "65%",
         "medicine": [
-            "Sulfur-based fungicides"
+            "Sulfur 80 WP (3g/liter) - Dust or spray application",
+            "Myclobutanil 10 WP (0.5g/liter) - Systemic fungicide", 
+            "Penconazole 10 EC (1ml/liter) - Protective and curative"
         ],
         "organic_medicine": [
-            "Neem oil",
-            "Baking soda spray"
+            "Neem oil (5ml/liter) - Weekly preventive spraying",
+            "Baking soda spray (5g/liter) - Creates alkaline surface",
+            "Milk spray (1:10 ratio with water) - 100ml milk/liter water"
         ],
-        "prevention": "Ensure good air circulation; prune dense foliage."
+        "prevention": "Ensure good air circulation; prune dense foliage; maintain proper plant spacing",
+        "பெயர்": "பவுடரி மில்ட்யூ",
+        "வகை": "பூஞ்சை",
+        "உரம்": "சிலிகான் கூடுதல் உடன் சமநிலை ஊட்டச்சத்துக்கள்",
+        "நீர்": "65%",
+        "மருந்து": ["சல்பர் 80 WP (3g/லிட்டர்) - தூள் அல்லது தெளிப்பு பயன்பாடு", "மைக்ளோபுடானில் 10 WP (0.5g/லிட்டர்) - கணினி பூஞ்சைக்கொல்லி", "பென்கோனசோல் 10 EC (1ml/லிட்டர்) - பாதுகாப்பு மற்றும் குணப்படுத்தும்"],
+        "கரிம மருந்து": ["வேப்ப எண்ணெய் (5ml/லிட்டர்) - வாராந்திர தடுப்பு தெளிப்பு", "பேக்கிங் சோடா தெளிப்பு (5g/லிட்டர்) - கார மேற்பரப்பை உருவாக்குகிறது", "பால் தெளிப்பு (1:10 விகிதம் நீருடன்) - 100ml பால்/லிட்டர் நீர்"],
+        "தடுப்பு முறைகள்": "நல்ல காற்று சுழற்சி உறுதி செய்யவும்; அடர்த்தியான இலைகளை கத்தரிக்கவும்; சரியான தாவர இடைவெளி பராமரிக்கவும்"
     },
     "Red Spider Mites": {
+        "type": "pest",
         "fertilizer": "Balanced nutrients to strengthen plants",
-        "water": "Regular watering",
+        "water": "70%",
         "medicine": [
-            "Miticides (Abamectin)"
+            "Abamectin 1.9 EC (1ml/liter) - Acaricide spray",
+            "Spiromesifen 22.9 SC (1ml/liter) - Growth regulator", 
+            "Fenazaquin 10 EC (2ml/liter) - Contact miticide"
         ],
         "organic_medicine": [
-            "Neem oil spray",
-            "Predatory mites release"
+            "Neem oil spray (5ml/liter) - Weekly application required",
+            "Predatory mites release - Phytoseiulus persimilis introduction",
+            "Sulfur dust application - 25kg/acre dusting"
         ],
-        "prevention": "Avoid dry dusty conditions; monitor leaves."
+        "prevention": "Avoid dry dusty conditions; monitor leaves regularly; maintain field humidity",
+        "பெயர்": "ரெட் ஸ்பைடர் மைட்ஸ்",
+        "வகை": "பூச்சி",
+        "உரம்": "தாவரங்களை வலுப்படுத்த சமநிலை ஊட்டச்சத்துக்கள்",
+        "நீர்": "70%",
+        "மருந்து": ["அபாமெக்டின் 1.9 EC (1ml/லிட்டர்) - அகாரிசைடு தெளிப்பு", "ஸ்பைரோமெசிஃபன் 22.9 SC (1ml/லிட்டர்) - வளர்ச்சி கட்டுப்படுத்தி", "ஃபெனாசாக்வின் 10 EC (2ml/லிட்டர்) - தொடர்பு மைட்டிசைட்"],
+        "கரிம மருந்து": ["வேப்ப எண்ணெய் தெளிப்பு (5ml/லிட்டர்) - வாராந்திர பயன்பாடு தேவை", "வேட்டையாடும் மைட்ட்கள் விடுவிப்பு - ஃபைட்டோசெயுலஸ் பெர்சிமிலிஸ் அறிமுகம்", "சல்பர் தூள் பயன்பாடு - 25kg/ஏக்கர் தூவுதல்"],
+        "தடுப்பு முறைகள்": "உலர் தூசி நிலைமைகளை தவிர்க்கவும்; இலைகளை தவறாமல் கண்காணிக்கவும்; வயல் ஈரப்பதத்தை பராமரிக்கவும்"
     },
     "Root Knot Nematodes": {
-        "fertilizer": "Avoid excessive nitrogen",
-        "water": "Moderate irrigation",
+        "type": "pest",
+        "fertilizer": "Avoid excessive nitrogen, use organic amendments",
+        "water": "60%",
         "medicine": [
-            "Nematicides"
+            "Carbofuran 3 G (1kg/acre) - Soil incorporation",
+            "Phorate 10 G (5kg/acre) - Granular application", 
+            "Carbosulfan 25 EC soil drench - 5ml/liter water"
         ],
         "organic_medicine": [
-            "Neem cake",
-            "Marigold intercropping"
+            "Neem cake (250 kg/acre) - Soil amendment before planting",
+            "Marigold intercropping - Tagetes erecta planting",
+            "Paeclomyces lilacinus application - 5g/liter soil drench"
         ],
-        "prevention": "Crop rotation; use resistant rootstocks."
+        "prevention": "Crop rotation with marigold; use resistant rootstocks; solarize soil before planting",
+        "பெயர்": "ரூட் நாட் நெமட்டோட்ஸ்",
+        "வகை": "பூச்சி",
+        "உரம்": "அதிக நைட்ரஜன் தவிர்க்கவும், கரிம திருத்தங்களை பயன்படுத்தவும்",
+        "நீர்": "60%",
+        "மருந்து": ["கார்போஃபுரான் 3 G (1kg/ஏக்கர்) - மண் இணைப்பு", "ஃபோரேட் 10 G (5kg/ஏக்கர்) - கிரானுலர் பயன்பாடு", "கார்போசல்ஃபான் 25 EC மண் ட்ரென்ச் - 5ml/லிட்டர் நீர்"],
+        "கரிம மருந்து": ["வேப்ப பிண்ணாக்கு (250 kg/ஏக்கர்) - நடவு முன் மண் திருத்தம்", "சாமந்தி இன்டர்க்ராப்பிங் - டேக்ட்ஸ் எரக்டா நடவு", "பேக்லோமைசஸ் லிலாசினஸ் பயன்பாடு - 5g/லிட்டர் மண் ட்ரென்ச்"],
+        "தடுப்பு முறைகள்": "சாமந்தியுடன் பயிர் சுழற்சி; எதிர்ப்பு ரூட்ஸ்டாக்குகளை பயன்படுத்தவும்; நடவு முன் மண்ணை சூரிய ஒளிப்படுத்தவும்"
     },
     "Septoria Leaf Spot": {
-        "fertilizer": "Balanced NPK fertilizer",
-        "water": "Water at base",
+        "type": "fungal",
+        "fertilizer": "Balanced NPK fertilizer with micronutrients",
+        "water": "65%",
         "medicine": [
-            "Copper fungicide"
+            "Copper oxychloride 50 WP (3g/liter) - Protective spraying",
+            "Mancozeb 75 WP (2g/liter) - 3 sprays at 10-day intervals", 
+            "Chlorothalonil 75 WP (2g/liter) - Broad-spectrum fungicide"
         ],
         "organic_medicine": [
-            "Neem oil spray"
+            "Neem oil spray (5ml/liter) - Weekly preventive application",
+            "Copper soap solution - Ready-made organic formulation",
+            "Baking soda spray - 5g soda + 5ml oil/liter water"
         ],
-        "prevention": "Remove infected leaves; avoid overhead watering."
+        "prevention": "Remove infected leaves immediately; avoid overhead watering; practice crop rotation",
+        "பெயர்": "செப்டோரியா லீஃப் ஸ்பாட்",
+        "வகை": "பூஞ்சை",
+        "உரம்": "நுண்ணூட்டச்சத்துக்களுடன் சமநிலை NPK உரம்",
+        "நீர்": "65%",
+        "மருந்து": ["காப்பர் ஆக்சிக்ளோரைடு 50 WP (3g/லிட்டர்) - பாதுகாப்பு தெளிப்பு", "மான்கோசெப் 75 WP (2g/லிட்டர்) - 10-நாள் இடைவெளியில் 3 தெளிப்புகள்", "குளோரோதலோனில் 75 WP (2g/லிட்டர்) - பரந்த-நிறமாலை பூஞ்சைக்கொல்லி"],
+        "கரிம மருந்து": ["வேப்ப எண்ணெய் தெளிப்பு (5ml/லிட்டர்) - வாராந்திர தடுப்பு பயன்பாடு", "காப்பர் சோப் கரைசல் - தயாராக கிடைக்கும் கரிம ஃபார்முலேஷன்", "பேக்கிங் சோடா தெளிப்பு - 5g சோடா + 5ml எண்ணெய்/லிட்டர் நீர்"],
+        "தடுப்பு முறைகள்": "பாதிக்கப்பட்ட இலைகளை உடனடியாக அகற்றவும்; மேல்புற நீர்ப்பாசனத்தை தவிர்க்கவும்; பயிர் சுழற்சி பயிற்சி செய்யவும்"
     },
     "Serpentine Leaf Miner": {
-        "fertilizer": "Balanced nutrients",
-        "water": "Normal irrigation",
+        "type": "pest",
+        "fertilizer": "Balanced nutrients for plant health",
+        "water": "70%",
         "medicine": [
-            "Spinosad-based insecticide"
+            "Spinosad 45 SC (0.3ml/liter) - Natural derivative spray",
+            "Cyromazine 75 WP (0.5g/liter) - Insect growth regulator", 
+            "Abamectin 1.9 EC (1ml/liter) - Systemic action"
         ],
         "organic_medicine": [
-            "Neem oil",
-            "Yellow sticky traps"
+            "Neem oil (5ml/liter) - Weekly foliar application",
+            "Yellow sticky traps - 10-15 traps/acre placement",
+            "Parasitic wasps release - Diglyphus isaea introduction"
         ],
-        "prevention": "Remove infested leaves; monitor regularly."
+        "prevention": "Remove infested leaves regularly; monitor with yellow traps; maintain field sanitation",
+        "பெயர்": "செர்பென்டைன் லீஃப் மைனர்",
+        "வகை": "பூச்சி",
+        "உரம்": "தாவர ஆரோக்கியத்திற்கான சமநிலை ஊட்டச்சத்துக்கள்",
+        "நீர்": "70%",
+        "மருந்து": ["ஸ்பினோசாட் 45 SC (0.3ml/லிட்டர்) - இயற்கை வழித்தோன்றல் தெளிப்பு", "சைரோமசைன் 75 WP (0.5g/லிட்டர்) - பூச்சி வளர்ச்சி கட்டுப்படுத்தி", "அபாமெக்டின் 1.9 EC (1ml/லிட்டர்) - கணினி செயல்"],
+        "கரிம மருந்து": ["வேப்ப எண்ணெய் (5ml/லிட்டர்) - வாராந்திர இலை பயன்பாடு", "மஞ்சள் ஒட்டும் பொறிகள் - 10-15 பொறிகள்/ஏக்கர் வைப்பு", "ஒட்டுண்ணி குளவிகள் விடுவிப்பு - டிக்லிஃபஸ் இசாயா அறிமுகம்"],
+        "தடுப்பு முறைகள்": "பாதிக்கப்பட்ட இலைகளை தவறாமல் அகற்றவும்; மஞ்சள் பொறிகளுடன் கண்காணிக்கவும்; வயல் சுகாதாரம் பராமரிக்கவும்"
     },
-   
-    
     "Thrips": {
-        "fertilizer": "Balanced nutrients",
-        "water": "Normal irrigation",
+        "type": "pest",
+        "fertilizer": "Balanced nutrients for plant vigor",
+        "water": "70%",
         "medicine": [
-            "Spinosad or Imidacloprid"
+            "Spinosad 45 SC (0.3ml/liter) - Natural product spray",
+            "Imidacloprid 17.8 SL (0.3ml/liter) - Systemic insecticide", 
+            "Fipronil 5 SC (1.5ml/liter) - Contact and stomach poison"
         ],
         "organic_medicine": [
-            "Neem oil spray",
-            "Blue sticky traps"
+            "Neem oil spray (5ml/liter) - Weekly application needed",
+            "Blue sticky traps - 10-12 traps/acre installation",
+            "Garlic-pepper spray - 50g each crushed/liter water"
         ],
-        "prevention": "Monitor leaves; encourage natural predators."
+        "prevention": "Monitor leaves regularly; encourage natural predators like Orius bugs; use reflective mulches",
+        "பெயர்": "திரிப்ஸ்",
+        "வகை": "பூச்சி",
+        "உரம்": "தாவர வலிமைக்கான சமநிலை ஊட்டச்சத்துக்கள்",
+        "நீர்": "70%",
+        "மருந்து": ["ஸ்பினோசாட் 45 SC (0.3ml/லிட்டர்) - இயற்கை தயாரிப்பு தெளிப்பு", "இமிடாக்ளோப்பிரிட் 17.8 SL (0.3ml/லிட்டர்) - கணினி பூச்சிக்கொல்லி", "ஃபிப்ரோனில் 5 SC (1.5ml/லிட்டர்) - தொடர்பு மற்றும் வயிற்று நஞ்சு"],
+        "கரிம மருந்து": ["வேப்ப எண்ணெய் தெளிப்பு (5ml/லிட்டர்) - வாராந்திர பயன்பாடு தேவை", "நீல ஒட்டும் பொறிகள் - 10-12 பொறிகள்/ஏக்கர் நிறுவல்", "பூண்டு-மிளகாய் தெளிப்பு - 50g ஒவ்வொன்றும் நசுக்கிய/லிட்டர் நீர்"],
+        "தடுப்பு முறைகள்": "இலைகளை தவறாமல் கண்காணிக்கவும்; ஓரியஸ் பிழைகள் போன்ற இயற்கை வேட்டையாடுபவர்களை ஊக்குவிக்கவும்; பிரதிபலிக்கும் மல்ச்களை பயன்படுத்தவும்"
     },
     "Tomato Mosaic Virus": {
+        "type": "viral",
         "fertilizer": "Balanced nutrients to improve plant vigor",
-        "water": "Normal field irrigation",
+        "water": "70%",
         "medicine": [
-            "No chemical cure"
+            "Insecticides for vector control - Aphid management needed",
+            "Acetamiprid for aphids (0.2g/liter) - Vector elimination", 
+            "Thiamethoxam for whiteflies (0.2g/liter) - Systemic action"
         ],
         "organic_medicine": [
-            "Remove infected plants immediately"
+            "Remove infected plants immediately - Complete destruction",
+            "Neem for insect vectors (5ml/liter) - Weekly spraying",
+            "Garlic barrier spray (10%) - Pest repellent application"
         ],
-        "prevention": "Use virus-free seeds; sanitize tools."
+        "prevention": "Use certified virus-free seeds; sanitize tools with trisodium phosphate; control weed hosts",
+        "பெயர்": "தக்காளி மொசைக் வைரஸ்",
+        "வகை": "வைரஸ்",
+        "உரம்": "தாவர வலிமை மேம்படுத்த சமநிலை ஊட்டச்சத்துக்கள்",
+        "நீர்": "70%",
+        "மருந்து": ["வெக்டர் கட்டுப்பாட்டிற்கான பூச்சிக்கொல்லிகள் - அஃபிட் மேலாண்மை தேவை", "அஃபிட்களுக்கு அசிட்டாமிப்ரிட் (0.2g/லிட்டர்) - வெக்டர் நீக்கம்", "வைட்ஃப்ளைக்களுக்கு தையமெத்தோக்சம் (0.2g/லிட்டர்) - கணினி செயல்"],
+        "கரிம மருந்து": ["பாதிக்கப்பட்ட தாவரங்களை உடனடியாக அகற்றவும் - முழுமையான அழிவு", "பூச்சி வெக்டர்களுக்கு வேப்பம் (5ml/லிட்டர்) - வாராந்திர தெளிப்பு", "பூண்டு தடுப்பு தெளிப்பு (10%) - பூச்சி விரட்டி பயன்பாடு"],
+        "தடுப்பு முறைகள்": "சான்றளிக்கப்பட்ட வைரஸ் இல்லாத விதைகளை பயன்படுத்தவும்; ட்ரைசோடியம் பாஸ்பேட் உடன் கருவிகளை சுத்தம் செய்யவும்; களை ஹோஸ்ட்களை கட்டுப்படுத்தவும்"
     },
     "Tomato Spotted Wilt Virus": {
-        "fertilizer": "Balanced nutrients",
-        "water": "Normal irrigation",
+        "type": "viral",
+        "fertilizer": "Balanced nutrients for plant health",
+        "water": "70%",
         "medicine": [
-            "No chemical cure"
+            "Spinosad for thrips control (0.3ml/liter) - Vector management",
+            "Imidacloprid for vector management (0.3ml/liter) - Systemic", 
+            "Abamectin for mite vectors (1ml/liter) - Acaricide spray"
         ],
         "organic_medicine": [
-            "Remove infected plants"
+            "Remove infected plants promptly - Immediate uprooting",
+            "Neem oil for thrips (5ml/liter) - Weekly repellent spray",
+            "Yellow sticky traps - 15 traps/acre for monitoring"
         ],
-        "prevention": "Control thrips; use resistant varieties."
+        "prevention": "Control thrips vectors; use resistant varieties; rogue infected plants early",
+        "பெயர்": "தக்காளி ஸ்பாட்டட் வில்ட் வைரஸ்",
+        "வகை": "வைரஸ்",
+        "உரம்": "தாவர ஆரோக்கியத்திற்கான சமநிலை ஊட்டச்சத்துக்கள்",
+        "நீர்": "70%",
+        "மருந்து": ["திரிப்ஸ் கட்டுப்பாட்டிற்கு ஸ்பினோசாட் (0.3ml/லிட்டர்) - வெக்டர் மேலாண்மை", "வெக்டர் மேலாண்மைக்கு இமிடாக்ளோப்பிரிட் (0.3ml/லிட்டர்) - கணினி", "மைட் வெக்டர்களுக்கு அபாமெக்டின் (1ml/லிட்டர்) - அகாரிசைடு தெளிப்பு"],
+        "கரிம மருந்து": ["பாதிக்கப்பட்ட தாவரங்களை உடனடியாக அகற்றவும் - உடனடி வேர் பிடுங்குதல்", "திரிப்ஸ்களுக்கு வேப்ப எண்ணெய் (5ml/லிட்டர்) - வாராந்திர விரட்டி தெளிப்பு", "மஞ்சள் ஒட்டும் பொறிகள் - கண்காணிப்பிற்கு 15 பொறிகள்/ஏக்கர்"],
+        "தடுப்பு முறைகள்": "திரிப்ஸ் வெக்டர்களை கட்டுப்படுத்தவும்; எதிர்ப்பு வகைகளை பயன்படுத்தவும்; பாதிக்கப்பட்ட தாவரங்களை ஆரம்பத்தில் அகற்றவும்"
     },
     "Tomato Yellow Leaf Curl Virus": {
-        "fertilizer": "Balanced nutrients",
-        "water": "Normal irrigation",
+        "type": "viral",
+        "fertilizer": "Balanced nutrients to maintain vigor",
+        "water": "70%",
         "medicine": [
-            "No chemical cure"
+            "Imidacloprid for whitefly control (0.3ml/liter) - Systemic",
+            "Thiamethoxam 25 WG (0.2g/liter) - Vector management", 
+            "Acetamiprid 20 SP (0.2g/liter) - Contact insecticide"
         ],
         "organic_medicine": [
-            "Remove infected plants",
-            "Control whiteflies"
+            "Remove infected plants - Complete field sanitation",
+            "Control whiteflies with neem (5ml/liter) - Weekly spray",
+            "Yellow sticky traps deployment - 20 traps/acre minimum"
         ],
-        "prevention": "Use virus-free seeds; yellow sticky traps for vectors."
+        "prevention": "Use virus-free certified seeds; yellow sticky traps for whiteflies; physical barriers",
+        "பெயர்": "தக்காளி மஞ்சள் இலை சுருள் வைரஸ்",
+        "வகை": "வைரஸ்",
+        "உரம்": "வலிமை பராமரிக்க சமநிலை ஊட்டச்சத்துக்கள்",
+        "நீர்": "70%",
+        "மருந்து": ["வைட்ஃப்ளை கட்டுப்பாட்டிற்கு இமிடாக்ளோப்பிரிட் (0.3ml/லிட்டர்) - கணினி", "தையமெத்தோக்சம் 25 WG (0.2g/லிட்டர்) - வெக்டர் மேலாண்மை", "அசிட்டாமிப்ரிட் 20 SP (0.2g/லிட்டர்) - தொடர்பு பூச்சிக்கொல்லி"],
+        "கரிம மருந்து": ["பாதிக்கப்பட்ட தாவரங்களை அகற்றவும் - முழுமையான வயல் சுகாதாரம்", "வேப்பத்துடன் வைட்ஃப்ளைக்களை கட்டுப்படுத்தவும் (5ml/லிட்டர்) - வாராந்திர தெளிப்பு", "மஞ்சள் ஒட்டும் பொறிகள் வைப்பு - குறைந்தது 20 பொறிகள்/ஏக்கர்"],
+        "தடுப்பு முறைகள்": "வைரஸ் இல்லாத சான்றளிக்கப்பட்ட விதைகளை பயன்படுத்தவும்; வைட்ஃப்ளைக்களுக்கு மஞ்சள் ஒட்டும் பொறிகள்; இயற்பியல் தடைகள்"
     },
     "Verticillium Wilt": {
-        "fertilizer": "Avoid excessive nitrogen",
-        "water": "Moderate watering",
+        "type": "fungal",
+        "fertilizer": "Avoid excessive nitrogen, use balanced fertilizers",
+        "water": "60%",
         "medicine": [
-            "Fungicide: Carbendazim"
+            "Carbendazim 50 WP (1g/liter) - Soil drench treatment",
+            "Thiophanate-methyl 70 WP (1g/liter) - Fungicidal application", 
+            "Benomyl soil application - 2g/liter root zone drench"
         ],
         "organic_medicine": [
-            "Trichoderma biofungicide"
+            "Trichoderma biofungicide (5g/liter) - Biological control",
+            "Neem cake soil amendment - 250kg/acre incorporation",
+            "Mustard meal biofumigation - 500kg/acre soil treatment"
         ],
-        "prevention": "Use resistant varieties; crop rotation."
+        "prevention": "Use resistant varieties; practice 4-5 year crop rotation; solarize infected soil",
+        "பெயர்": "வெர்டிசில்லியம் வில்ட்",
+        "வகை": "பூஞ்சை",
+        "உரம்": "அதிக நைட்ரஜன் தவிர்க்கவும், சமநிலை உரங்களை பயன்படுத்தவும்",
+        "நீர்": "60%",
+        "மருந்து": ["கார்பெண்டாசிம் 50 WP (1g/லிட்டர்) - மண் ட்ரென்ச் சிகிச்சை", "தையோஃபனேட்-மெத்தில் 70 WP (1g/லிட்டர்) - பூஞ்சைக்கொல்லி பயன்பாடு", "பெனோமில் மண் பயன்பாடு - 2g/லிட்டர் வேர் மண்டல ட்ரென்ச்"],
+        "கரிம மருந்து": ["டிரைகோடெர்மா உயிரி பூஞ்சைக்கொல்லி (5g/லிட்டர்) - உயிரியல் கட்டுப்பாடு", "வேப்ப பிண்ணாக்கு மண் திருத்தம் - 250kg/ஏக்கர் இணைப்பு", "கடுகு உணவு உயிரி புகைபூட்டல் - 500kg/ஏக்கர் மண் சிகிச்சை"],
+        "தடுப்பு முறைகள்": "எதிர்ப்பு வகைகளை பயன்படுத்தவும்; 4-5 வருட பயிர் சுழற்சி பயிற்சி செய்யவும்; பாதிக்கப்பட்ட மண்ணை சூரிய ஒளிப்படுத்தவும்"
     },
-    "white fly": {
-        "fertilizer": "Balanced nutrients",
-        "water": "Normal irrigation",
+    "Whitefly": {
+        "type": "pest",
+        "fertilizer": "Balanced nutrients for plant health",
+        "water": "70%",
         "medicine": [
-            "Imidacloprid or Thiamethoxam"
+            "Imidacloprid 17.8 SL (0.3ml/liter) - Systemic insecticide",
+            "Thiamethoxam 25 WG (0.2g/liter) - Soil application", 
+            "Acetamiprid 20 SP (0.2g/liter) - Foliar spray on adults"
         ],
         "organic_medicine": [
-            "Neem oil",
-            "Yellow sticky traps"
+            "Neem oil (5ml/liter) - Weekly repellent application",
+            "Yellow sticky traps - 15-20 traps/acre placement",
+            "Soap water spray - 10ml liquid soap/liter water"
         ],
-        "prevention": "Monitor leaves; encourage natural predators."
+        "prevention": "Monitor leaves regularly; encourage natural predators; use reflective mulches",
+        "பெயர்": "வைட்ஃப்ளை",
+        "வகை": "பூச்சி",
+        "உரம்": "தாவர ஆரோக்கியத்திற்கான சமநிலை ஊட்டச்சத்துக்கள்",
+        "நீர்": "70%",
+        "மருந்து": ["இமிடாக்ளோப்பிரிட் 17.8 SL (0.3ml/லிட்டர்) - கணினி பூச்சிக்கொல்லி", "தையமெத்தோக்சம் 25 WG (0.2g/லிட்டர்) - மண் பயன்பாடு", "அசிட்டாமிப்ரிட் 20 SP (0.2g/லிட்டர்) - பெரியவர்களில் இலை தெளிப்பு"],
+        "கரிம மருந்து": ["வேப்ப எண்ணெய் (5ml/லிட்டர்) - வாராந்திர விரட்டி பயன்பாடு", "மஞ்சள் ஒட்டும் பொறிகள் - 15-20 பொறிகள்/ஏக்கர் வைப்பு", "சோப்பு நீர் தெளிப்பு - 10ml திரவ சோப்பு/லிட்டர் நீர்"],
+        "தடுப்பு முறைகள்": "இலைகளை தவறாமல் கண்காணிக்கவும்; இயற்கை வேட்டையாடுபவர்களை ஊக்குவிக்கவும்; பிரதிபலிக்கும் மல்ச்களை பயன்படுத்தவும்"
     },
-    
     "Whitefly Bemisia tabaci": {
-        "fertilizer": "Balanced nutrients",
-        "water": "Normal irrigation",
+        "type": "pest",
+        "fertilizer": "Balanced nutrients with silicon",
+        "water": "70%",
         "medicine": [
-            "Imidacloprid or Thiamethoxam"
+            "Imidacloprid 17.8 SL (0.3ml/liter) - Systemic control",
+            "Thiamethoxam 25 WG (0.2g/liter) - Vector management", 
+            "Pyriproxyfen 10 EC (1ml/liter) - Growth regulator"
         ],
         "organic_medicine": [
-            "Neem oil",
-            "Yellow sticky traps"
+            "Neem oil spray (5ml/liter) - Weekly application",
+            "Yellow sticky traps - 20 traps/acre minimum",
+            "Beauveria bassiana fungal spray - 5g/liter water"
         ],
-        "prevention": "Monitor leaves; encourage natural predators."
+        "prevention": "Monitor population with yellow traps; encourage Encarsia formosa parasitoids; remove alternate hosts",
+        "பெயர்": "வைட்ஃப்ளை பெமிசியா தபாசி",
+        "வகை": "பூச்சி",
+        "உரம்": "சிலிகான் உடன் சமநிலை ஊட்டச்சத்துக்கள்",
+        "நீர்": "70%",
+        "மருந்து": ["இமிடாக்ளோப்பிரிட் 17.8 SL (0.3ml/லிட்டர்) - கணினி கட்டுப்பாடு", "தையமெத்தோக்சம் 25 WG (0.2g/liter) - வெக்டர் மேலாண்மை", "பைரிப்ரோக்சிஃபன் 10 EC (1ml/லிட்டர்) - வளர்ச்சி கட்டுப்படுத்தி"],
+        "கரிம மருந்து": ["வேப்ப எண்ணெய் தெளிப்பு (5ml/லிட்டர்) - வாராந்திர பயன்பாடு", "மஞ்சள் ஒட்டும் பொறிகள் - குறைந்தது 20 பொறிகள்/ஏக்கர்", "பியூவேரியா பாசியானா பூஞ்சை தெளிப்பு - 5g/லிட்டர் நீர்"],
+        "தடுப்பு முறைகள்": "மஞ்சள் பொறிகளுடன் மக்கள் தொகையை கண்காணிக்கவும்; என்கார்சியா ஃபார்மோசா ஒட்டுண்ணிகளை ஊக்குவிக்கவும்; மாற்று ஹோஸ்ட்களை அகற்றவும்"
     }
 }
